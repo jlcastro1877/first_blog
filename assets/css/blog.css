@@ -26,16 +26,15 @@ body {
 
  .toggle {
   border-style: outset;
-  width: 400px;
+  width: 300px;
   background-color: rgba(76, 175, 80, 0.15);
-  margin: 50px 300px;
+  margin: 10px 100px;
   text-align: center;
 }
 
 /* Dark Mode */
 .dark {
   background-color: #243447;
-  height: 120vh;
   color: #bebebe;
 }
 
