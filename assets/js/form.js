@@ -1,10 +1,11 @@
 const userName = document.querySelector('#UserName');
 const title = document.querySelector('#title');
 const area = document.querySelector('#textArea');
-const submitBtn = document.querySelector('#increment');
+const submitBtn = document.querySelector('#submit');
 
 submitBtn.addEventListener('click', function() {
-    // event.preventDefault();
+    event.preventDefault();
+    
     const blogData = {
         blogUserName: userName.value,
         blogTitle: title.value,
