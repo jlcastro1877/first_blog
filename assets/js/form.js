@@ -5,7 +5,11 @@ const submitBtn = document.querySelector('#increment');
 
 submitBtn.addEventListener('click', function() {
     // event.preventDefault();
-    console.log(userName.value);
-    console.log(title.value);
-    console.log(area.value);
+    const blogData = {
+        blogUserName: userName.value,
+        blogTitle: title.value,
+        blogText: area.value,
+    };
+
+    localStorage.setItem('blogData', JSON.stringify(blogData));
 })
