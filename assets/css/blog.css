@@ -63,6 +63,19 @@ body {
   margin: 10px;
 }
 
+.blog-poste {
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: #dbf4ff21;
+  box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+  margin: 10px;
+  font-size: 20px;
+}
+
 .blog-post_date span {
   display: block;
   color: #00000080;
