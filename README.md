@@ -6,3 +6,4 @@ on the blog page there is a switcher for light or dark mode and a back button to
 Each js file, such as blog.js, form.js, have the querySelector to catch the value of each element
 Logic js has the functions and calls to execute the logic for Dark mode or locaStorage.
 ![image](https://github.com/jlcastro1877/first_blog/assets/161878013/2986a24e-c39f-46a0-9aa6-df252f44af43)
+![image](https://github.com/jlcastro1877/first_blog/assets/161878013/f1f47fcf-2e6f-4376-9adf-8690548e1761)
