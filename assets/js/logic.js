@@ -21,7 +21,7 @@ function renderMessage() {
     if (lastBlogData !== null) {
       document.querySelector('.blog-post_title').textContent = lastBlogData.blogTitle;
       document.querySelector('.blog-post_text').textContent = lastBlogData.blogText;
-      document.querySelector('.blog-poste').textContent = lastBlogData.blogUserName;
+      document.querySelector('.blog-user').textContent = lastBlogData.blogUserName;
     }
   }
 
